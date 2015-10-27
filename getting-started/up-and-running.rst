@@ -9,7 +9,7 @@ Don't have a SmartThings Hub or any devices yet? Carry on! You can still create 
 
 Of course, you'll want to have the hardware sooner than later, but you can start developing with SmartThings with nothing more than the free SmartThings mobile app, a web browser, and an internet connection:
 
-#. `Register <https://graph.api.smartthings.com/register>`__ for an account.
+#. `Register (or login to your SmartThings Developer account) <https://graph.api.smartthings.com/register>`__ for an account. 
 #. Download the free SmartThings app for iOS, Android, or Windows.
 
 ----
