@@ -22,7 +22,7 @@ The 3 Main types of ZigBee Messages
 Device Network ID
 -----------------
 
-All connected devices have a Device Network ID that is used to route
+All connected devices have a unique Device Network ID that is used to route
 messages correctly to the device. In the loosest terms think of the
 Network ID as the IP Address. It is a 4 digit hex number that the device
 gets while pairing. Since the Network ID is different by device, you can
