@@ -137,8 +137,8 @@ the device's manual or technical documentation.
 -  Most door locks will send status updates to associated devices when
    they are locked or unlocked manually.
 
-The SmartThings hub automatically adds itself to association group 1
-when a device that supports association joins the network. If this is
+When a device that supports association joins the network, the SmartThings 
+hub automatically adds it to association group 1. If this is
 inappropriate for your device type, your device handler can use
 `AssociationRemove <https://graph.api.smartthings.com/ide/doc/zwave-utils.html#associationV2/associationRemove>`__
 to undo it. To associate to a group higher than 1, the device handler can send
