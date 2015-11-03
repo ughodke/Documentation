@@ -55,7 +55,7 @@ typically called in a timing loop.
 mDNS/DNS-SD
 ~~~~~~~~~~~
 
-Device discovery via mDNS/DNS-SD or Bonjour is not currently supported.
+Device discovery via mDNS/DNS-SD or Bonjour is not currently supported. (** pls see note in change request)
 
 Handling Updates (Adds/Changes/Deletes)
 ---------------------------------------
