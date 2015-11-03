@@ -97,7 +97,7 @@ Getting the Addresses
 
 To use HubAction, you will need the IP address of the device, and sometimes the hub.
 
-How the device IP and port are stored my vary depending on the device type. There's currently not a public API to get this information easily, so until there is, you will need to handle this in your device-type handler. Consider using helper methods like these to get this information:
+How the device IP and port are stored may vary depending on the device type. There's currently no public API to get this information easily, so until there is, you will need to handle this in your device-type handler. Consider using helper methods like these to get this information:
 
 .. code-block:: groovy
 
@@ -166,7 +166,7 @@ Alternatively, after making the initial connection you can use UPnP.
 UPnP uses `SOAP <http://en.wikipedia.org/wiki/SOAP_%28protocol%29>`__
 (Simple Object Access Protocol) messages to communicate with the device.
 
-SmartThings provides the ``HubSoapAction`` class for this purpose. It is similar to the HubAction class (it actually extends the HubAction class), but it will handle creating the soap envelope for you.
+SmartThings provides the ``HubSoapAction`` class for this purpose. It actually extends the HubAction class and will handle creating the soap envelope for you.
 
 Here's an example of using ``HubSoapAction``:
 
