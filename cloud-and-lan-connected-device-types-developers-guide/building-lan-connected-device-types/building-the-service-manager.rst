@@ -41,14 +41,14 @@ main message to be sent through the hub is
 
     lan discovery urn:schemas-upnp-org:device:ZonePlayer:1
 
-The protocol is **lan**. The unique resource name (URN) is built with
+The protocol is **lan**. The Uniform Resource Name (URN) is built with
 the Namespace Identifier (NID) **schemas-upnp-org** and Namespace
 Specific String (NSS) **device:ZonePlayer:1** according to the `URN
 Syntax Guide <http://www.ietf.org/rfc/rfc2141.txt>`__.
 
 For Sonos, the device specific search term is **ZonePlayer:1**, but that
 will change per device. The search term for a particular device using
-UPnP should be published on documentation for the device, but you may
+UPnP should be published in the documentation for the device, if not, you may
 also have to contact the manufacturer directly. The above command is
 typically called in a timing loop.
 
